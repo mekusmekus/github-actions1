@@ -9,5 +9,4 @@ jobs:
         run: echo "Hello world"
       - name: multi-steps
         run: |
-          npm clean-install
           npm run build
