@@ -10,4 +10,4 @@ jobs:
       - name: multi-steps
         run: |
           node -v
-          npn -v
+          npm -v
