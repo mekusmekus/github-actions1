@@ -9,6 +9,5 @@ jobs:
         run: echo "Hello world"
       - name: multi-steps
         run: |
-          npm install
-          npm run prettier
+          npm clean-install
           npm run build
